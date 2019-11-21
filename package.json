@@ -1,0 +1,20 @@
+{
+  "name": "helloworld-workflows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  }
+}
